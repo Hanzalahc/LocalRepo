@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Email Validator 📩</h1>
+      <div class="box">
+        <form id="emailForm" method="post">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              placeholder="example@gmail.com"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <h2>Your Results:</h2>
+      <div class="box1 hide"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
